@@ -2,7 +2,7 @@ import numpy as np
 import cv2 
 import os
 path=os.getcwd()+'\RGB-Color.png'
-# Capturing video through webcam 
+# Getting the Image
 imageFrame=cv2.imread(path)
   
 # Convert the imageFrame in  
